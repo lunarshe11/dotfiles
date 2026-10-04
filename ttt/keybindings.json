@@ -1,0 +1,66 @@
+[
+  {
+    "key": "ctrl+a",
+    "command": "editor.selectAll"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "editor.copy"
+  },
+  {
+    "key": "ctrl+x",
+    "command": "editor.cut"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "editor.paste"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "search.find"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "search.replace"
+  },
+  {
+    "key": "ctrl+z",
+    "command": "editor.undo"
+  },
+  {
+    "key": "ctrl+y",
+    "command": "editor.redo"
+  },
+  {
+    "key": "ctrl+s",
+    "command": "file.save"
+  },
+  {
+    "key": "ctrl+shift+s",
+    "command": "file.saveAs"
+  },
+  {
+    "key": "ctrl+o",
+    "command": "workspace.openFolder"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "file.new"
+  },
+  {
+    "key": "ctrl+w",
+    "command": "tab.close"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "command.palette"
+  },
+  {
+    "key": "ctrl+g",
+    "command": "editor.goToLine"
+  },
+  {
+    "key": "ctrl+k y",
+    "command": "view.keybindings"
+  }
+]
