@@ -1,5 +1,4 @@
 #!/bin/bash
-
 set -e
 
 dotfiles="$(cd "$(dirname "$0")" && pwd)"
@@ -26,8 +25,6 @@ backup_item "$HOME/.config/kitty"
 backup_item "$HOME/.config/fish"
 backup_item "$HOME/.config/ttt"
 backup_item "$HOME/.config/noctalia"
-backup_item "$HOME/.config/mimeapps.list"
-backup_item "$HOME/.config/user-dirs.dirs"
 
 echo ""
 echo "=== install configs ==="
@@ -47,13 +44,6 @@ cp "$dotfiles/ttt/"*.json ~/.config/ttt/ 2>/dev/null || true
 
 mkdir -p ~/.config/noctalia
 cp "$dotfiles/noctalia/settings.toml" ~/.config/noctalia/ 2>/dev/null || true
-
-
-fi
-
-mkdir -p ~/.config
-cp "$dotfiles/xdg/mimeapps.list" ~/.config/ 2>/dev/null || true
-cp "$dotfiles/xdg/user-dirs.dirs" ~/.config/ 2>/dev/null || true
 
 echo ""
 echo "=== install nbfc config ==="
