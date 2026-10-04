@@ -26,7 +26,6 @@ backup_item "$HOME/.config/kitty"
 backup_item "$HOME/.config/fish"
 backup_item "$HOME/.config/ttt"
 backup_item "$HOME/.config/noctalia"
-backup_item "$HOME/.gitconfig"
 backup_item "$HOME/.config/mimeapps.list"
 backup_item "$HOME/.config/user-dirs.dirs"
 
@@ -50,8 +49,6 @@ mkdir -p ~/.config/noctalia
 cp "$dotfiles/noctalia/settings.toml" ~/.config/noctalia/ 2>/dev/null || true
 
 
-if [ -f "$dotfiles/git/.gitconfig" ]; then
-    cp "$dotfiles/git/.gitconfig" ~/.gitconfig
 fi
 
 mkdir -p ~/.config

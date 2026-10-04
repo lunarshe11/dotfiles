@@ -12,7 +12,6 @@ my arch linux setup on a machcreator one r5.
 - `ttt/` — ttt editor keybinds and settings
 - `noctalia/` — shell + greeter settings
 - `nbfc/` — fan curve for this laptop
-- `git/` — git config
 - `xdg/` — mime + user dirs
 - `media/` — screenshots
 - `install.sh` — deploy script
