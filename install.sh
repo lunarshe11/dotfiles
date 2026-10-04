@@ -43,7 +43,6 @@ mkdir -p ~/.config/ttt
 cp "$dotfiles/ttt/"*.json ~/.config/ttt/ 2>/dev/null || true
 
 mkdir -p ~/.config/noctalia
-cp "$dotfiles/noctalia/settings.toml" ~/.config/noctalia/ 2>/dev/null || true
 
 echo ""
 echo "=== install nbfc config ==="
