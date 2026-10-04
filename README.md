@@ -11,7 +11,7 @@ my arch linux setup
 - `fish/` — shell
 - `ttt/` — ttt editor keybinds and settings
 - `noctalia/` — shell + greeter settings
-- `fastfetch/` — system info
+- `catnap/` — system info
 - `nbfc/` — fan curve for this laptop
 - `git/` — git config
 - `xdg/` — mime + user dirs
@@ -23,7 +23,7 @@ my arch linux setup
 ### desktop
 ![desktop](media/desktop.png)
 
-### kitty + fastfetch
+### kitty + catnap
 ![kitty](media/kitty.png)
 
 ### ttt editor
@@ -127,7 +127,7 @@ all bindings use `super` (win key) as mod.
 
 ```bash
 sudo pacman -S --needed \
-    hyprland kitty fish fastfetch \
+    hyprland kitty fish catnap \
     grim slurp wl-clipboard libnotify \
     brightnessctl playerctl \
     tlp tlp-rdw ufw lm_sensors \
